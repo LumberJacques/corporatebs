@@ -1,0 +1,21 @@
+html, body {font-family:'Nunito', 'Helvetica', 'Arial', 'Verdana', sans-serif; text-align:center; opacity:1; transition:opacity 0.4s;}
+
+body.noShow {opacity:0;}
+
+
+.genHeader {background:#333; color:#fff; padding:15px;}
+.fontPacifico {font-family:'Pacifico';}
+.genLogo {position:relative;}
+.genLogo > span {font-size:2rem; transition:color 0.4s;}
+.genLogo > span.targetColour {color:#18bdff;}
+.genLogo > div {position:relative; font-size:0.65rem; left:15px; top:-10px; color:#888;}
+.genStripe {height:5px; background:#18bdff; transition:background 0.4s;}
+
+.genMain {position:relative; top:0; transition:opacity 0.4s, top 0.4s; opacity:1;}
+.genMain.processing {opacity:0; top:-20px;}
+
+.genPitch {margin:50px 20px 75px; font-size:1.75rem;}
+
+.genMain {margin-bottom:20px;}
+
+.btn {max-width:300px; padding:20px 40px; background:#18bdff; color:#fff; display:inline-block; cursor:pointer; transition:all 0.4s;}
